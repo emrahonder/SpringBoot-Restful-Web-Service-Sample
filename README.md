@@ -21,6 +21,8 @@ management.server.port: 9006
 management.server.address: 127.0.0.1
 ```
 ###  Assumptions
-Transaction and statistics operations are done on middle of day at the same calendar day.
+* Transaction and statistics operations are done on middle of day at the same calendar day.
+* Statictics will be checked always for last 60 seconds.
+
 
 
