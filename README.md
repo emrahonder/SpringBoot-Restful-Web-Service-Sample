@@ -12,6 +12,10 @@ If request is eligible for saving, it returns HTTP Status Code 201, Created. OTh
 http://localhost:9005/statistics
 ```
 This allows just get requests and returns statictics of transactions came at last 60 seconds.
+
+###  Logger  Configuration
+Logger configuration file (log4j.properties) is under  /src/main/resources/ folder. To get details about conf file, please visit https://logging.apache.org/log4j/2.x/manual/configuration.html.
+
 ###  Service Configuration
 As mentioned above, WS is served over 9005, this port is define on application.properties file under /src/main/resources/
 Below ones can be updated according to needs.
